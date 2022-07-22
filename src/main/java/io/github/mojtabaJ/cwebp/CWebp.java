@@ -1,4 +1,4 @@
-package com.github.mojtabaJ.cwebp;
+package io.github.mojtabaJ.cwebp;
 
 import java.io.*;
 

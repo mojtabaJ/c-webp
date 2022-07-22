@@ -33,5 +33,6 @@ build/
 .vscode/
 
 ### Project ###
-!**/src/main/java/com/github/mojtabaJ/cwebp/Test.java
-/src/main/java/com/github/mojtabaJ/cwebp/Test.java
+!src/main/java/io/github/mojtabaJ/cwebp/Test.java
+/io/github/mojtabaJ/cwebp/Test.java
+/src/main/java/io/github/mojtabaJ/cwebp/Test.java
