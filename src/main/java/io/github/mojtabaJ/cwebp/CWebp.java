@@ -40,7 +40,7 @@ public class CWebp {
      * It triggers lossless compression mode automatically.
      * The range is 0 (maximum preprocessing) to 100 (no preprocessing, the default).
      * The typical value is around 60. Note that lossy with -q 100 can at times yield better results.
-     * * @param level level of near-lossless
+     * @param level level of near-lossless
      * @return A new {@link CWebp} object for managing the subprocess
      */
     public CWebp nearLossless(int level) {
