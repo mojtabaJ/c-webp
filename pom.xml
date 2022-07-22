@@ -94,7 +94,7 @@
 
                 <configuration>
                     <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
@@ -122,9 +122,6 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
-                        <configuration>
-                            <failOnError>false</failOnError>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
