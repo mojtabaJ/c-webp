@@ -1,4 +1,4 @@
-# WebP Converter  ![Maven Central](https://img.shields.io/maven-central/v/io.github.mojtabaj/c-webp) 
+# WebP Converter  [![Maven Central](https://img.shields.io/maven-central/v/io.github.mojtabaj/c-webp)](https://search.maven.org/search?q=g:io.github.mojtabaj%20AND%20a:c-webp) 
 A simple compression utility for converting images (jpeg, png, tiff) to  **WebP** format.
 
 
