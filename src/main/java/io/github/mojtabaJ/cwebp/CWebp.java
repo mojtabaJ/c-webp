@@ -2,7 +2,14 @@ package io.github.mojtabaJ.cwebp;
 
 import java.io.*;
 
+
 /**
+ * created by: Mojtaba Jalambadani
+ * project name: c-webp
+ * 24/07/2022
+ * All Rights Reserved.
+ *
+ *
  * util fot create and execute cwebp command to compresses an image using the WebP format.
  * Input format can be either PNG, JPEG, TIFF, WebP or raw Y'CbCr samples.
  * Note: Animated PNG and WebP files are not supported.
