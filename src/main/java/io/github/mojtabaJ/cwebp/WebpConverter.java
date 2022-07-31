@@ -13,7 +13,7 @@ import org.apache.commons.io.FileUtils;
  * All Rights Reserved.
  *
  *
- * util fot create and execute cwebp command to compresses an image using the WebP format.
+ * util for create and execute cwebp command to compresses an image using the WebP format.
  * Input format can be either PNG, JPEG, TIFF, WebP or raw Y'CbCr samples.
  * Note: Animated PNG and WebP files are not supported.
  */
@@ -21,7 +21,7 @@ public class WebpConverter {
 
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP Byte
+     * converting PNG, JPEG, TIFF, WebP image to WebP Byte
      * @param imageByte input image byte
      * @return WebP image Byte
      */
@@ -30,7 +30,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP Byte
+     * converting PNG, JPEG, TIFF, WebP image to WebP Byte
      * @param imageByte input image byte
      * @param quality compression factor for RGB channels
      * @return WebP image Byte
@@ -59,7 +59,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP Byte
+     * converting PNG, JPEG, TIFF, WebP image to WebP Byte
      * @param imageFilePath input image file path
      * @param quality compression factor for RGB channels
      * @return WebP image Byte
@@ -79,7 +79,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP Byte
+     * converting PNG, JPEG, TIFF, WebP image to WebP Byte
      * @param imageFile input image file
      * @param quality compression factor for RGB channels
      * @return WebP image Byte
@@ -91,7 +91,7 @@ public class WebpConverter {
 
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP File
+     * converting PNG, JPEG, TIFF, WebP image to WebP File
      * @param imageByte input image byte
      * @param webpPathFile output webp image path file
      * @return WebP image File
@@ -101,7 +101,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP File
+     * converting PNG, JPEG, TIFF, WebP image to WebP File
      * @param imageByte input image byte
      * @param webpPathFile output webp image path file
      * @param quality compression factor for RGB channels
@@ -130,7 +130,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP File
+     * converting PNG, JPEG, TIFF, WebP image to WebP File
      * @param imageFilePath input image file path
      * @param webpPathFile output webp image path file
      * @param quality compression factor for RGB channels
@@ -146,7 +146,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP File
+     * converting PNG, JPEG, TIFF, WebP image to WebP File
      * @param imageFile input image file
      * @param webpPathFile output webp image path file
      * @param quality compression factor for RGB channels
@@ -159,7 +159,7 @@ public class WebpConverter {
 
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP Byte
+     * converting PNG, JPEG, TIFF, WebP image to WebP Byte
      * @param imageFilePath input image file path
      * @param quality compression factor for RGB channels
      * @param tempDir temp directory for converting
@@ -179,7 +179,7 @@ public class WebpConverter {
     }
 
     /**
-     * convert PNG, JPEG, TIFF, WebP image to WebP File
+     * converting PNG, JPEG, TIFF, WebP image to WebP File
      * @param imageFilePath input image file path
      * @param quality compression factor for RGB channels
      * @param tempDir temp directory for converting

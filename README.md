@@ -14,11 +14,33 @@ A simple compression utility for converting images (jpeg, png, tiff) to  **WebP*
 <dependency>
   <groupId>io.github.mojtabaj</groupId>
   <artifactId>c-webp</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
----
+
+
+### Usage
+
+```java
+//Use WebpConverter for converting image to webp byte with 80 quality
+byte[] webpByte = WebpConverter.imageByteToWebpByte(imageByteArray, 80);
+byte[] webpByte = WebpConverter.imageFileToWebpByte("../inputImage.png", 80);
+
+//Use WebpConverter for converting image to webp file with 80 quality
+File webpFile = WebpConverter.imageByteToWebpFile(imageByteArray,"../outputImage.webp", 80);
+File webpFile = WebpConverter.imageFileToWebpFile("../inputImage.png","../outputImage.webp", 80);
+
+
+//Use CWebp to create and execute cwebp command to compress an image using the WebP format.
+CWebp cwebp = new CWebp()
+        .input(imageFilePath) // specify the input file.
+        .quality(80) //factor for RGB channels
+        .resize(512, 512) // resize the source to a rectangle with size width x height.
+        .output(outputFilePath); // specify the output WebP file
+cwebp.execute(); // executes the specified string command in a separate process.
+```
+
 
 License
 =======
